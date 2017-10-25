@@ -24,6 +24,13 @@ namespace SportsStore.Models
                     },
                     new Product
                     {
+                        Name = "Dell Keyboard",
+                        Description = "Dude, you got a Dell!",
+                        Category = "Input / Output Devices",
+                        Price = 29.99m
+                    },
+                    new Product
+                    {
                         Name = "Lifejacket",
                         Description = "Protective and fashionable",
                         Category = "Watersports",
