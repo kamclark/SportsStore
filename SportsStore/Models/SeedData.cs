@@ -7,7 +7,6 @@ namespace SportsStore.Models
 
     public static class SeedData
     {
-
         public static void EnsurePopulated(IApplicationBuilder app)
         {
             ApplicationDbContext context = app.ApplicationServices
@@ -18,72 +17,65 @@ namespace SportsStore.Models
                     new Product
                     {
                         Name = "AULA Keyboard",
-                        Description = "Solid Mechanical Keyboard",
-                        Category = "Input / Output Devices",
+                        Description = "Solid mechanical keyboard.",
+                        Category = "Input/Output Devices",
                         Price = 39.95m
                     },
                     new Product
                     {
                         Name = "Dell Keyboard",
-                        Description = "Dude, you got a Dell!",
-                        Category = "Input / Output Devices",
+                        Description = "Dude, you got a Dell......keyboard!",
+                        Category = "Input/Output Devices",
                         Price = 29.99m
                     },
                     new Product
                     {
-                        Name = "Lifejacket",
-                        Description = "Protective and fashionable",
-                        Category = "Watersports",
-                        Price = 48.95m
+                        Name = "Viewsonic Display",
+                        Description = "27 inches of vibrant color and display.",
+                        Category = "Monitors",
+                        Price = 289
                     },
                     new Product
                     {
-                        Name = "Soccer Ball",
-                        Description = "FIFA-approved size and weight",
-                        Category = "Soccer",
-                        Price = 19.50m
+                        Name = "ASUS Display",
+                        Description = "A movie theater couldn't be more immersive.",
+                        Category = "Monitors",
+                        Price = 489
                     },
                     new Product
                     {
-                        Name = "Corner Flags",
-                        Description = "Give your playing field a professional touch",
-                        Category = "Soccer",
-                        Price = 34.95m
+                        Name = "Viewsonic Display",
+                        Description = "27 inches of vibrant color and display.",
+                        Category = "Monitors",
+                        Price = 289.99m
                     },
                     new Product
                     {
-                        Name = "Stadium",
-                        Description = "Flat-packed 35,000-seat stadium",
-                        Category = "Soccer",
-                        Price = 79500
+                        Name = "Monoprice HDMI Cable",
+                        Description = "Nothing much here, just a cable.",
+                        Category = "Accessories",
+                        Price = 7
                     },
                     new Product
                     {
-                        Name = "Thinking Cap",
-                        Description = "Improve brain efficiency by 75%",
-                        Category = "Chess",
-                        Price = 16
+                        Name = "Griffin HDMI Cable",
+                        Description = "Nothing much here, just a more expensive cable.",
+                        Category = "Accessories",
+                        Price = 9.50m
                     },
                     new Product
                     {
-                        Name = "Unsteady Chair",
-                        Description = "Secretly give your opponent a disadvantage",
-                        Category = "Chess",
-                        Price = 29.95m
+                        Name = "Middleware Motherboard",
+                        Description = "Middle of the road, midmarket motherboard, man.",
+                        Category = "Motherboards",
+                        Price = 199
                     },
                     new Product
                     {
-                        Name = "Human Chess Board",
-                        Description = "A fun game for the family",
-                        Category = "Chess",
-                        Price = 75
-                    },
-                    new Product
-                    {
-                        Name = "Bling-Bling King",
-                        Description = "Gold-plated, diamond-studded King",
-                        Category = "Chess",
-                        Price = 1200
+                        Name = "Dragonscale ATX Tower",
+                        Description = "It looks like something out of Morrowind.",
+                        Category = "Pesonal Computer Towers",
+                        Price = 300
                     }
                 );
                 context.SaveChanges();

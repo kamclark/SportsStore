@@ -8,8 +8,8 @@ using SportsStore.Models;
 namespace SportsStore.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20171025192010_ShippedOrders")]
-    partial class ShippedOrders
+    [Migration("20171026004438_First")]
+    partial class First
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
